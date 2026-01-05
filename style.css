@@ -65,5 +65,27 @@ nav a:hover {
 .home-button:hover {
   background-color: #333;   /* lichter zwart bij hover */
 }
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+
+  background-size: cover;      /* vult hele scherm */
+  background-position: center; /* centreren */
+  background-attachment: fixed; /* blijft vast bij scrollen */
+  color:    black;                /* voor zichtbare tekst */
+}
+.left-image {
+  width: 250px;          /* past formaat aan */
+  height: auto;          /* behoudt verhoudingen */
+  float: left;           /* afbeelding staat links */
+  margin-left: 20px;    /* nieuwe regel: ruimte van de linkerrand */
+  margin-right: 20px;    /* ruimte tussen afbeelding en tekst */
+  margin-bottom: 10px;   /* ruimte onder afbeelding */
+  border-radius: 10px;   /* optioneel, afgeronde hoeken */
+  border: 2px solid #ccc; /* optioneel, lichte rand */
+}
+
+
 
 
