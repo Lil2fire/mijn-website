@@ -11,3 +11,59 @@ h1 {
 p {
   font-size: 18px;
 }
+nav {
+  text-align: center;   /* center de links */
+  margin-top: 20px;     /* optionele ruimte boven de navigatie */
+}
+
+/* Zwarte balk achter elke link */
+nav a {
+  display: inline-block;       /* maakt padding mogelijk */
+  background-color: black;     /* zwarte balk */
+  color: white;                /* witte tekst */
+  padding: 10px 20px;          /* ruimte rondom tekst */
+  margin: 5px;                 /* ruimte tussen knoppen */
+  text-decoration: none;       /* geen onderlijn */
+  font-weight: bold;
+  border-radius: 5px;          /* afgeronde hoeken, optioneel */
+}
+
+nav a:hover {
+  background-color: #333;      /* iets lichtere zwart bij hover */
+}
+.home-button {
+  position: fixed;          /* altijd op dezelfde plek op scherm */
+  bottom: 20px;             /* 20px van de onderkant */
+  left: 20px;               /* 20px van de linkerkant */
+  background-color: black;  /* zwarte achtergrond */
+  color: white;             /* witte tekst */
+  padding: 10px 25px;       /* knopgrootte */
+  text-decoration: none;    /* geen onderlijn */
+  font-weight: bold;        /* dikke tekst */
+  border-radius: 5px;       /* afgeronde hoeken */
+  transition: background 0.3s; /* mooi hover-effect */
+  z-index: 1000;            /* altijd boven content */
+}
+
+.home-button:hover {
+  background-color: #333;   /* iets lichtere zwart bij hover */
+}
+.home-button {
+  position: fixed;          /* blijft altijd op dezelfde plek */
+  bottom: 20px;             /* 20px vanaf onderkant scherm */
+  left: 20px;               /* 20px vanaf linkerkant */
+  background-color: black;  /* zwarte achtergrond */
+  color: white;             /* witte tekst */
+  padding: 10px 25px;       /* formaat knop */
+  text-decoration: none;    /* geen onderlijn */
+  font-weight: bold;        /* dikke tekst */
+  border-radius: 5px;       /* afgeronde hoeken */
+  transition: background 0.3s; /* hover-effect */
+  z-index: 1000;            /* altijd boven content */
+}
+
+.home-button:hover {
+  background-color: #333;   /* lichter zwart bij hover */
+}
+
+
